@@ -59,7 +59,7 @@
       (el.requestFullscreen || el.webkitRequestFullscreen || function () {}).call(el);
     } catch (e) {}
 
-    setTimeout(reveal, 2200);
+    setTimeout(reveal, 0);
   });
 
   // Resume audio if the tab was backgrounded
