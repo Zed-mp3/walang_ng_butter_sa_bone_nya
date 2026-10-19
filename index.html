@@ -3,11 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title></title>
+  <title>ISPSC Free WiFi</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="entry">CLICK TO ENTER</div>
+  <div id="portal">
+    <header class="top">
+      <img class="logo" src="ispsc-logo.png" alt="">
+      <div class="title">
+        <small>Republic of the Philippines</small>
+        <h1>Ilocos Sur Polytechnic State College</h1>
+        <span>Tagudin Campus | Tagudin, Ilocos Sur</span>
+      </div>
+      <div class="clock">Philippine Standard Time:<br><span id="clock"></span></div>
+    </header>
+    
+    <main>
+      <section class="card">
+        <div class="wifi">
+          <span class="free">Free</span>
+          <span class="big">WiFi</span>
+          <span class="bar">FOR ALL</span>
+        </div>
+        <p class="tags">#freewifi4all &nbsp; #AngWiFiNatin</p>
+        <button id="connect" type="button">Press to Connect with Free WiFi for All</button>
+        <label id="accept"><input type="checkbox" id="check" checked> I Accept Free WiFi for All</label>
+      </section>
+    </main>
+  </div>
+
   <img id="scare" src="jumpscare.jpg" alt="" decoding="async" fetchpriority="high">
   <audio id="sound" src="jumpscare.mp3" loop preload="auto"></audio>
   <script src="script.js"></script>
